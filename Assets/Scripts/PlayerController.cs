@@ -7,13 +7,20 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed = 10.0f;
     [SerializeField] private Hammer hammerPrefab;
     [SerializeField] private LayerMask groundMask;
+    [SerializeField] private float invulnerabilityTime = 1.5f;
 
     private Rigidbody rb;
     private Animator animator;
 
     private bool canAttack = true;
+    private bool canBeHurt = true;
     private GameObject throwTargetObject;
     private GameObject hammerObject;
+
+    public void Hurt()
+    {
+        Debug.Log("Ouch!");
+    }
 
     private void Start()
     {

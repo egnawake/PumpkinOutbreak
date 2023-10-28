@@ -9,7 +9,7 @@ public class PumpkinSpawner : MonoBehaviour
 
     public void Start()
     {
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 1; i++)
         {
             Vector3 pos = new Vector3(Random.Range(-5, 5), 0, Random.Range(-5, 5));
             Pumpkin p = Instantiate(pumpkinPrefab, pos, Quaternion.identity);
