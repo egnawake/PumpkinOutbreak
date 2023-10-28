@@ -3,7 +3,37 @@ guid: 26a7e3e3856326f4d92fdba4cca1c4d2
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_metal_02
+    second: {fileID: 2100000, guid: 01ca448adce74ac42b38cbecfee29cac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_rooftiles_01
+    second: {fileID: 2100000, guid: 5fa0e780d56f02a44a152c5ea161776f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_stonebrick_02
+    second: {fileID: 2100000, guid: c01c422df3755ac44a22aa913297719f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_wall_02
+    second: {fileID: 2100000, guid: 3dd0b595f0e697342bf89842f458a975, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_wood_05
+    second: {fileID: 2100000, guid: 97e9fdf3d1a5c93449dbf5a5bb9b342f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_wood_detail_01
+    second: {fileID: 2100000, guid: aaf310ab7cf4d0345b6255b4e0bb0162, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -35,7 +65,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.4
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -90,7 +120,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 0.4
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
