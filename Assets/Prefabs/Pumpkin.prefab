@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: -3955912458946480918}
   - component: {fileID: 4059479947099159859}
   - component: {fileID: 3833691886318682600}
+  - component: {fileID: 6962318251896507585}
   m_Layer: 8
   m_Name: Pumpkin
   m_TagString: Untagged
@@ -179,3 +180,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.78697324, y: 0.592578, z: 0.13822642}
   m_Center: {x: 0, y: 0.32084557, z: 0}
+--- !u!95 &6962318251896507585
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5571016762617408004}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a42de2f92e8f6e1468413bfb98c4233f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

@@ -61,4 +61,13 @@ public class Hammer : MonoBehaviour
             }
         }
     }
+
+    private void OnTriggerEnter(Collider collider)
+    {
+        Pumpkin pumpkin = collider.GetComponent<Pumpkin>();
+        if (pumpkin != null)
+        {
+            pumpkin.Defeat();
+        }
+    }
 }
