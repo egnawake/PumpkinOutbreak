@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class PlayerController : MonoBehaviour
 {
@@ -33,6 +35,7 @@ public class PlayerController : MonoBehaviour
         canBeHurt = false;
         controllable = false;
         lives = lives - 1;
+        DamageTaken?.Invoke(lives);
         if (lives == 0)
         {
             Defeat();
@@ -185,4 +188,6 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(invulnerabilityTime);
         canBeHurt = true;
     }
+
+    public event Action<int> DamageTaken;
 }
