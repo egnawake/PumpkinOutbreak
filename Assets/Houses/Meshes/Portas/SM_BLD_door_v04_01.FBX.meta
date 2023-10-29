@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: MI_metal_01
-    second: {fileID: -1545174153374137504, guid: 99df9e94fc3204149a0a92613acd5c0f, type: 3}
+    second: {fileID: 2100000, guid: 29866f3329d67ae499ff1556f38abb51, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

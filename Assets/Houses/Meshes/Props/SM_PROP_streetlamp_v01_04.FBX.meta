@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 879db9dee9895bc468665cbdfce5989e
+guid: d292f4e4f3638714b9de559e39456ecb
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -8,12 +8,32 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: MI_CLR_emission_yellow
-    second: {fileID: 5711847996785229361, guid: d448215b290a925499c55604905ad2f5, type: 3}
+    second: {fileID: 5711847996785229361, guid: ba3edd73f03672a43bf3c316e57cea13, type: 3}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: MI_wood_06
-    second: {fileID: 2100000, guid: 7be0fd681473a1242894287f19cf9886, type: 2}
+      name: MI_metal_01
+    second: {fileID: 2100000, guid: 29866f3329d67ae499ff1556f38abb51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_metal_02
+    second: {fileID: 2100000, guid: 01ca448adce74ac42b38cbecfee29cac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_stonebrick_02
+    second: {fileID: 2100000, guid: c01c422df3755ac44a22aa913297719f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_wood_05
+    second: {fileID: 2100000, guid: 97e9fdf3d1a5c93449dbf5a5bb9b342f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_wood_detail_01
+    second: {fileID: 2100000, guid: aaf310ab7cf4d0345b6255b4e0bb0162, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
