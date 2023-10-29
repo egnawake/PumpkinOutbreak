@@ -101,10 +101,10 @@ public class PlayerController : MonoBehaviour
 
         flipPivot.transform.localScale = scale;
 
-        if (vertical > 0)
-            meshRenderer.material = backSprite;
-        else if (vertical < 0)
-            meshRenderer.material = frontSprite;
+        if (vertical != 0)
+        {
+            animator.SetFloat("VerticalInput", vertical);
+        }
     }
 
     private bool GetAttackInput()
