@@ -12,19 +12,37 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Material backSprite;
     [SerializeField] private GameObject graphics;
     [SerializeField] private GameObject flipPivot;
+    [SerializeField] private int maxLives = 3;
 
     private Rigidbody rb;
     private Animator animator;
+    private MeshRenderer meshRenderer;
 
     private bool canAttack = true;
     private bool canBeHurt = true;
     private GameObject throwTargetObject;
     private GameObject hammerObject;
-    private MeshRenderer meshRenderer;
+    private int lives;
+    private bool dead = false;
+    private bool controllable = true;
 
     public void Hurt()
     {
-        Debug.Log("Ouch!");
+        if (!canBeHurt) return;
+
+        canBeHurt = false;
+        controllable = false;
+        lives = lives - 1;
+        if (lives == 0)
+        {
+            Defeat();
+        }
+        else
+        {
+            animator.SetTrigger("Hurt");
+            StartCoroutine(TickInvulnerabilityTime());
+            StartCoroutine(Knockback());
+        }
     }
 
     private void Start()
@@ -32,10 +50,14 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
         meshRenderer = graphics.GetComponent<MeshRenderer>();
+
+        lives = maxLives;
     }
 
     private void Update()
     {
+        if (dead || !controllable) return;
+
         bool attack = GetAttackInput();
         if (canAttack && attack)
         {
@@ -47,6 +69,8 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (dead || !controllable) return;
+
         Vector3 vel = GetVelocity();
         Move(vel);
         animator.SetBool("Moving", rb.velocity.magnitude > 0.0001f);
@@ -121,11 +145,44 @@ public class PlayerController : MonoBehaviour
         return transform.position;
     }
 
+    private IEnumerator Knockback()
+    {
+        float speed = 5f;
+        float accel = -0.5f;
+        float time = 1f;
+        Vector3 direction = Vector3.right * (Random.Range(0, 2) * 2 - 1);
+
+        while (time > 0)
+        {
+            Vector3 velocity = direction * speed;
+            speed = Mathf.Max(0, speed + accel);
+            rb.velocity = velocity;
+
+            time = time - Time.deltaTime;
+
+            yield return new WaitForFixedUpdate();
+        }
+
+        controllable = true;
+    }
+
+    private void Defeat()
+    {
+        animator.SetTrigger("Death");
+        dead = true;
+    }
+
     private void AttackDone()
     {
         canAttack = true;
         animator.SetTrigger("HammerCaught");
         Destroy(hammerObject);
         Destroy(throwTargetObject);
+    }
+
+    private IEnumerator TickInvulnerabilityTime()
+    {
+        yield return new WaitForSeconds(invulnerabilityTime);
+        canBeHurt = true;
     }
 }

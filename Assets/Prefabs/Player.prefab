@@ -194,6 +194,7 @@ MonoBehaviour:
   backSprite: {fileID: 2100000, guid: 40a4da9ce0dce234b8b4cada33d4c2f5, type: 2}
   graphics: {fileID: 3437218624653555473}
   flipPivot: {fileID: 1624622559863813920}
+  maxLives: 3
 --- !u!54 &1700699580358942552
 Rigidbody:
   m_ObjectHideFlags: 0
