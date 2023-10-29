@@ -18,11 +18,13 @@ public class MainMenu : MonoBehaviour
 
     private void StartGame()
     {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/PlayButton", transform.position);
         SceneManager.LoadScene(gameSceneName);
     }
 
     private void Quit()
     {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/ExitButton", transform.position);
         Application.Quit();
     }
 }

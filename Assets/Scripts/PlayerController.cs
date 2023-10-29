@@ -48,6 +48,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/BruxaHurt", transform.position);
             animator.SetTrigger("Hurt");
             StartCoroutine(TickInvulnerabilityTime());
             StartCoroutine(Knockback());
@@ -190,6 +191,7 @@ public class PlayerController : MonoBehaviour
 
     private void Defeat()
     {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/BruxaDie", transform.position);
         animator.SetTrigger("Death");
         dead = true;
     }
