@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: MI_CLR_emission_yellow
-    second: {fileID: 5711847996785229361, guid: 04745c2b2f517b6408652a34a84e259e, type: 3}
+    second: {fileID: 5711847996785229361, guid: d448215b290a925499c55604905ad2f5, type: 3}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
