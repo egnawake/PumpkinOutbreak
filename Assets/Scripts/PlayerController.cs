@@ -12,19 +12,27 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Material backSprite;
     [SerializeField] private GameObject graphics;
     [SerializeField] private GameObject flipPivot;
+    [SerializeField] private int maxLives = 3;
 
     private Rigidbody rb;
     private Animator animator;
+    private MeshRenderer meshRenderer;
 
     private bool canAttack = true;
     private bool canBeHurt = true;
     private GameObject throwTargetObject;
     private GameObject hammerObject;
-    private MeshRenderer meshRenderer;
+    private int lives;
+    private bool dead = false;
 
     public void Hurt()
     {
-        Debug.Log("Ouch!");
+        lives = lives - 1;
+        Debug.Log(lives);
+        if (lives == 0)
+        {
+            Defeat();
+        }
     }
 
     private void Start()
@@ -32,10 +40,14 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
         meshRenderer = graphics.GetComponent<MeshRenderer>();
+
+        lives = maxLives;
     }
 
     private void Update()
     {
+        if (dead) return;
+
         bool attack = GetAttackInput();
         if (canAttack && attack)
         {
@@ -47,6 +59,8 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (dead) return;
+
         Vector3 vel = GetVelocity();
         Move(vel);
         animator.SetBool("Moving", rb.velocity.magnitude > 0.0001f);
@@ -119,6 +133,12 @@ public class PlayerController : MonoBehaviour
         }
 
         return transform.position;
+    }
+
+    private void Defeat()
+    {
+        animator.SetTrigger("Death");
+        dead = true;
     }
 
     private void AttackDone()
