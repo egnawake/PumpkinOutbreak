@@ -16,6 +16,7 @@ public class LevelChanger : MonoBehaviour
     void Start()
     {
         mainSong.start();
+        mainSong.release();
     }
 
     private void OnTriggerEnter(Collider player)

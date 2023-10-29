@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: ../../Fmod/PumpkinProject/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638341414420377022
+  lastModified: 638341457203655626
   FileSizes: []
   Exists: 1
 --- !u!114 &-3147477059851498454
@@ -33,10 +33,10 @@ MonoBehaviour:
   Path: ../../Fmod/PumpkinProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638341414420427038
+  lastModified: 638341457204188728
   FileSizes:
   - Name: 
-    Value: 712
+    Value: 758
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -53,11 +53,39 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: -3147477059851498454}
   - {fileID: -7051188790598066188}
-  EditorEvents: []
+  EditorEvents:
+  - {fileID: 5682164009598066661}
   EditorParameters: []
   MasterBanks:
   - {fileID: -7051188790598066188}
   StringsBanks:
   - {fileID: -3147477059851498454}
-  cacheTime: 638341414420427038
+  cacheTime: 638341457204188728
   cacheVersion: 131608
+--- !u!114 &5682164009598066661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MainMusic
+  m_EditorClassIdentifier: 
+  Path: event:/MainMusic
+  Guid:
+    Data1: -1759449376
+    Data2: 1310652672
+    Data3: -965068385
+    Data4: 1548106773
+  Banks:
+  - {fileID: -7051188790598066188}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 99000
