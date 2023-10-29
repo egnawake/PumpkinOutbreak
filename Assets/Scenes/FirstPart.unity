@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.45097935, g: 0.5008439, b: 0.5743641, a: 1}
+  m_IndirectSpecularColor: {r: 0.45097905, g: 0.5008431, b: 0.5743626, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -861,7 +861,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 63004612}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: TombStones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1052,6 +1052,10 @@ PrefabInstance:
     - target: {fileID: 561671998200545186, guid: 407e20f8681d72e46b5462b3aacef710, type: 3}
       propertyPath: m_Name
       value: SM_PROP_streetlamp_v02_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 561671998200545186, guid: 407e20f8681d72e46b5462b3aacef710, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 900901449175049496, guid: 407e20f8681d72e46b5462b3aacef710, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1463,6 +1467,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PROP_PLANT_pot_v2_04 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 456643c9458afbc448348511a2261569, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1576,6 +1584,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TombStone (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.94
@@ -1632,6 +1644,10 @@ PrefabInstance:
     - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_Name
       value: TombStone (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1925,6 +1941,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 456643c9458afbc448348511a2261569, type: 3}
       propertyPath: m_Name
       value: SM_PROP_PLANT_pot_v2_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 456643c9458afbc448348511a2261569, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2468,6 +2488,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TombStone (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.169964
@@ -2595,7 +2619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 193376415}
   - component: {fileID: 193376416}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Lamp1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2934,6 +2958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TombStone (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.7879286
@@ -3177,6 +3205,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TombStone (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16.171133
@@ -3231,7 +3263,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 257466299}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Trees
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4946,6 +4978,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TombStone (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.752228
@@ -5064,6 +5100,10 @@ PrefabInstance:
     - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_Name
       value: TombStone (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5657,6 +5697,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 284f5e774397da744ae0e921166ee535, type: 3}
       propertyPath: m_Name
       value: SM_PROP_PLANT_pot_v2_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 284f5e774397da744ae0e921166ee535, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6613,7 +6657,7 @@ GameObject:
   m_Component:
   - component: {fileID: 510267621}
   - component: {fileID: 510267622}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Lamp1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6708,6 +6752,10 @@ PrefabInstance:
     - target: {fileID: 561671998200545186, guid: 407e20f8681d72e46b5462b3aacef710, type: 3}
       propertyPath: m_Name
       value: SM_PROP_streetlamp_v02_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 561671998200545186, guid: 407e20f8681d72e46b5462b3aacef710, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 900901449175049496, guid: 407e20f8681d72e46b5462b3aacef710, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7638,7 +7686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 616274343}
   - component: {fileID: 616274344}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Lamp1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7773,6 +7821,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e3c1166676a195744a0bf668b35d9d10, type: 3}
       propertyPath: m_Name
       value: SM_PROP_PLANT_pot_v2_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e3c1166676a195744a0bf668b35d9d10, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9397,6 +9449,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PROP_PLANT_pot_v2_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 284f5e774397da744ae0e921166ee535, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9788,7 +9844,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 798334222}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Houses
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10424,6 +10480,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PROP_PLANT_pot_v2_02
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e3c1166676a195744a0bf668b35d9d10, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10570,6 +10630,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TombStone
       objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.290524
@@ -10666,6 +10730,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dfcda76eacf9fbd4f94d6e1f388bc7e3, type: 3}
       propertyPath: m_Name
       value: SM_PROP_PLANT_pot_v2_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dfcda76eacf9fbd4f94d6e1f388bc7e3, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11161,6 +11229,10 @@ PrefabInstance:
     - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_Name
       value: TombStone (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11812,9 +11884,21 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: 29866f3329d67ae499ff1556f38abb51, type: 2}
+    - target: {fileID: 3145918901635397182, guid: ac910f4897db52749b97fe5b2b69f16e, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285363788361142521, guid: ac910f4897db52749b97fe5b2b69f16e, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5499664181846788166, guid: ac910f4897db52749b97fe5b2b69f16e, type: 3}
       propertyPath: m_Name
       value: House3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5499664181846788166, guid: ac910f4897db52749b97fe5b2b69f16e, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11832,6 +11916,10 @@ PrefabInstance:
     - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_Name
       value: TombStone (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12369,6 +12457,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TombStone (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.719
@@ -12683,6 +12775,10 @@ PrefabInstance:
     - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_Name
       value: TombStone (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13061,6 +13157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TombStone
       objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.2496939
@@ -13361,10 +13461,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: House1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6983948477754823, guid: 2a2d7d1e82467094a9ea35052872fc05, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3273632783117512571, guid: 2a2d7d1e82467094a9ea35052872fc05, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 3922278878187703982, guid: 2a2d7d1e82467094a9ea35052872fc05, type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: 29866f3329d67ae499ff1556f38abb51, type: 2}
+    - target: {fileID: 4622519425123501790, guid: 2a2d7d1e82467094a9ea35052872fc05, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5597638412463454325, guid: 2a2d7d1e82467094a9ea35052872fc05, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.197264
@@ -13421,6 +13533,10 @@ PrefabInstance:
     - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_Name
       value: TombStone (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14155,6 +14271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PROP_PLANT_pot_v2_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dfcda76eacf9fbd4f94d6e1f388bc7e3, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14571,7 +14691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1134681469}
   - component: {fileID: 1134681470}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Lamp1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15507,6 +15627,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TombStone (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.173191
@@ -16242,10 +16366,58 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1905469848378683861, guid: 74fbc91a424dcfc41bbbbbb8fc46de80, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905469848378683861, guid: 74fbc91a424dcfc41bbbbbb8fc46de80, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905469848378683861, guid: 74fbc91a424dcfc41bbbbbb8fc46de80, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905469848378683861, guid: 74fbc91a424dcfc41bbbbbb8fc46de80, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4491069376388514117, guid: 74fbc91a424dcfc41bbbbbb8fc46de80, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1102662573}
+    - target: {fileID: 5883136473387190405, guid: 74fbc91a424dcfc41bbbbbb8fc46de80, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5883136473387190405, guid: 74fbc91a424dcfc41bbbbbb8fc46de80, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5883136473387190405, guid: 74fbc91a424dcfc41bbbbbb8fc46de80, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5883136473387190405, guid: 74fbc91a424dcfc41bbbbbb8fc46de80, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925693164851170363, guid: 74fbc91a424dcfc41bbbbbb8fc46de80, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925693164851170363, guid: 74fbc91a424dcfc41bbbbbb8fc46de80, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925693164851170363, guid: 74fbc91a424dcfc41bbbbbb8fc46de80, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925693164851170363, guid: 74fbc91a424dcfc41bbbbbb8fc46de80, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8697115623597624659, guid: 74fbc91a424dcfc41bbbbbb8fc46de80, type: 3}
       propertyPath: m_Name
       value: UI
@@ -16840,6 +17012,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TombStone (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.507729
@@ -17015,6 +17191,10 @@ PrefabInstance:
     - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_Name
       value: TombStone (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17201,6 +17381,10 @@ PrefabInstance:
     - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_Name
       value: TombStone (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17701,7 +17885,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1351602659}
   - component: {fileID: 1351602660}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Lamp1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17977,6 +18161,10 @@ PrefabInstance:
     - target: {fileID: 561671998200545186, guid: 407e20f8681d72e46b5462b3aacef710, type: 3}
       propertyPath: m_Name
       value: SM_PROP_streetlamp_v02_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 561671998200545186, guid: 407e20f8681d72e46b5462b3aacef710, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 900901449175049496, guid: 407e20f8681d72e46b5462b3aacef710, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18273,6 +18461,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 456643c9458afbc448348511a2261569, type: 3}
       propertyPath: m_Name
       value: SM_PROP_PLANT_pot_v2_04 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 456643c9458afbc448348511a2261569, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19744,6 +19936,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TombStone (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.48
@@ -19973,6 +20169,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: House2
       objectReference: {fileID: 0}
+    - target: {fileID: 1179462028187180244, guid: 63bdc96b116dd784e8e73190efeda8fb, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941271320090918186, guid: 63bdc96b116dd784e8e73190efeda8fb, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2977851948781384828, guid: 63bdc96b116dd784e8e73190efeda8fb, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 3532374996943595185, guid: 63bdc96b116dd784e8e73190efeda8fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.354412
@@ -20029,6 +20237,10 @@ PrefabInstance:
     - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_Name
       value: TombStone (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20148,6 +20360,10 @@ PrefabInstance:
     - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_Name
       value: TombStone (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21027,6 +21243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TombStone (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.94
@@ -21451,10 +21671,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: House1
       objectReference: {fileID: 0}
+    - target: {fileID: 6983948477754823, guid: 2a2d7d1e82467094a9ea35052872fc05, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3273632783117512571, guid: 2a2d7d1e82467094a9ea35052872fc05, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 3922278878187703982, guid: 2a2d7d1e82467094a9ea35052872fc05, type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: 29866f3329d67ae499ff1556f38abb51, type: 2}
+    - target: {fileID: 4622519425123501790, guid: 2a2d7d1e82467094a9ea35052872fc05, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5597638412463454325, guid: 2a2d7d1e82467094a9ea35052872fc05, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.99273705
@@ -21826,6 +22058,10 @@ PrefabInstance:
     - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_Name
       value: TombStone (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23247,6 +23483,10 @@ PrefabInstance:
     - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_Name
       value: TombStone (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24700,6 +24940,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TombStone (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.314299
@@ -24947,6 +25191,10 @@ PrefabInstance:
     - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_Name
       value: TombStone (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25376,6 +25624,10 @@ PrefabInstance:
     - target: {fileID: 561671998200545186, guid: 407e20f8681d72e46b5462b3aacef710, type: 3}
       propertyPath: m_Name
       value: SM_PROP_streetlamp_v02_02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 561671998200545186, guid: 407e20f8681d72e46b5462b3aacef710, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 900901449175049496, guid: 407e20f8681d72e46b5462b3aacef710, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26186,7 +26438,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1972042141}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Flower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26469,7 +26721,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1996839787}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Lamps
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26637,6 +26889,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TombStone (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.71
@@ -26693,6 +26949,10 @@ PrefabInstance:
     - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_Name
       value: TombStone (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27520,6 +27780,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TombStone
       objectReference: {fileID: 0}
+    - target: {fileID: 5133746957722499183, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5509427384609858261, guid: 34f75f2d7bf88db42a305ea4610d9930, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.4
@@ -27695,6 +27959,10 @@ PrefabInstance:
     - target: {fileID: 561671998200545186, guid: 407e20f8681d72e46b5462b3aacef710, type: 3}
       propertyPath: m_Name
       value: SM_PROP_streetlamp_v02_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 561671998200545186, guid: 407e20f8681d72e46b5462b3aacef710, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 900901449175049496, guid: 407e20f8681d72e46b5462b3aacef710, type: 3}
       propertyPath: m_LocalPosition.x
