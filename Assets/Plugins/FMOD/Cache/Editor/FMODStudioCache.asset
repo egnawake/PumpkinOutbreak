@@ -15,9 +15,63 @@ MonoBehaviour:
   Path: ../../Fmod/PumpkinProject/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638341457203655626
+  lastModified: 638341902484139302
   FileSizes: []
   Exists: 1
+--- !u!114 &-6910423005911738568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AranhaDeath
+  m_EditorClassIdentifier: 
+  Path: event:/AranhaDeath
+  Guid:
+    Data1: 819192660
+    Data2: 1313236193
+    Data3: 930576042
+    Data4: -1011671173
+  Banks:
+  - {fileID: -7051188790598066188}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 9.8
+  Length: 672
+--- !u!114 &-5000075924485727707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PlayButton
+  m_EditorClassIdentifier: 
+  Path: event:/PlayButton
+  Guid:
+    Data1: -353820125
+    Data2: 1186716507
+    Data3: 544312468
+    Data4: 2126576662
+  Banks:
+  - {fileID: -7051188790598066188}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 9.8
+  Length: 362
 --- !u!114 &-3147477059851498454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33,11 +87,38 @@ MonoBehaviour:
   Path: ../../Fmod/PumpkinProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638341457204188728
+  lastModified: 638341902484169279
   FileSizes:
   - Name: 
-    Value: 758
+    Value: 1034
   Exists: 1
+--- !u!114 &-1563403303409346149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ExitButton
+  m_EditorClassIdentifier: 
+  Path: event:/ExitButton
+  Guid:
+    Data1: 1790741440
+    Data2: 1240123250
+    Data3: 30384257
+    Data4: 838105670
+  Banks:
+  - {fileID: -7051188790598066188}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 9.8
+  Length: 940
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55,13 +136,73 @@ MonoBehaviour:
   - {fileID: -7051188790598066188}
   EditorEvents:
   - {fileID: 5682164009598066661}
+  - {fileID: 3674671753123287998}
+  - {fileID: 6832147216569703569}
+  - {fileID: 2338808179464407381}
+  - {fileID: -5000075924485727707}
+  - {fileID: -6910423005911738568}
+  - {fileID: -1563403303409346149}
   EditorParameters: []
   MasterBanks:
   - {fileID: -7051188790598066188}
   StringsBanks:
   - {fileID: -3147477059851498454}
-  cacheTime: 638341457204188728
+  cacheTime: 638341902484169279
   cacheVersion: 131608
+--- !u!114 &2338808179464407381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FoxSteps
+  m_EditorClassIdentifier: 
+  Path: event:/FoxSteps
+  Guid:
+    Data1: -1598915743
+    Data2: 1281131994
+    Data3: -1246134857
+    Data4: 1229516199
+  Banks:
+  - {fileID: -7051188790598066188}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 9.8
+  Length: 400
+--- !u!114 &3674671753123287998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MarretaThrow
+  m_EditorClassIdentifier: 
+  Path: event:/MarretaThrow
+  Guid:
+    Data1: 1185112241
+    Data2: 1111076780
+    Data3: 252357269
+    Data4: 285731306
+  Banks:
+  - {fileID: -7051188790598066188}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 9.8
+  Length: 1149
 --- !u!114 &5682164009598066661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,3 +230,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 99000
+--- !u!114 &6832147216569703569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AranhaWalk
+  m_EditorClassIdentifier: 
+  Path: event:/AranhaWalk
+  Guid:
+    Data1: 244721476
+    Data2: 1256192758
+    Data3: -1704349800
+    Data4: 1453328915
+  Banks:
+  - {fileID: -7051188790598066188}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 10
+  Length: 3274

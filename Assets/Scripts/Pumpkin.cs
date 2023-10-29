@@ -19,6 +19,8 @@ public class Pumpkin : MonoBehaviour
 
     private PumpkinState state = PumpkinState.Chasing;
 
+    private FMODUnity.StudioEventEmitter walking;
+
     public void Setup(Transform followTarget)
     {
         this.followTarget = followTarget;
@@ -31,6 +33,7 @@ public class Pumpkin : MonoBehaviour
         rb.velocity = Vector3.zero;
         state = PumpkinState.Dead;
         animator.SetTrigger("Death");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/AranhaDeath", transform.position);
         col.enabled = false;
         hurtbox.enabled = false;
         StartCoroutine(Vanish());
@@ -49,6 +52,9 @@ public class Pumpkin : MonoBehaviour
         col = GetComponent<Collider>();
 
         hurtbox.callback = OnHurtboxTrigger;
+
+        walking = GetComponent<FMODUnity.StudioEventEmitter>();
+        walking.Play();
     }
 
     private void Update()
@@ -58,23 +64,33 @@ public class Pumpkin : MonoBehaviour
 
         if (state == PumpkinState.Chasing)
         {
+
             Vector3 toTarget = followTarget.position - transform.position;
             if (toTarget.magnitude <= 1f)
             {
                 if (canAttack)
                 {
                     state = PumpkinState.Attacking;
+
+                    walking.Stop();
+
                     StartAttack();
                 }
                 else
                 {
                     rb.velocity = Vector3.zero;
                     state = PumpkinState.Stopped;
+
+                    walking.Stop();
+
                 }
             }
             else if (state == PumpkinState.Stopped)
             {
                 state = PumpkinState.Chasing;
+
+                walking.Play();
+
             }
         }
         else if (state == PumpkinState.Stopped)
@@ -88,6 +104,9 @@ public class Pumpkin : MonoBehaviour
             else if (toTarget.magnitude > 1f)
             {
                 state = PumpkinState.Chasing;
+
+                walking.Play();
+
             }
         }
     }
@@ -143,6 +162,9 @@ public class Pumpkin : MonoBehaviour
 
     private void OnHurtboxTrigger(Collider collider)
     {
+
+        walking.Stop();
+
         Defeat();
     }
 }

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5558224435612791714}
   - component: {fileID: 8297591785344890765}
   - component: {fileID: 7633885840277017759}
+  - component: {fileID: 5384864667489607839}
   m_Layer: 10
   m_Name: Hammer
   m_TagString: Untagged
@@ -99,6 +100,9 @@ MonoBehaviour:
   initialSpeed: 20
   minSpeed: 10
   acceleration: -0.2
+  minRange: 2
+  maxRange: 4
+  catchDistanceThreshold: 0.1
 --- !u!95 &7633885840277017759
 Animator:
   serializedVersion: 5
@@ -120,6 +124,37 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5384864667489607839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966802702455236039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1185112241
+      Data2: 1111076780
+      Data3: 252357269
+      Data4: 285731306
+    Path: event:/MarretaThrow
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 5
 --- !u!1 &5333983072061738456
 GameObject:
   m_ObjectHideFlags: 0

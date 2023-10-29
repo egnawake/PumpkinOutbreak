@@ -128,6 +128,7 @@ GameObject:
   - component: {fileID: 6100336439043740033}
   - component: {fileID: 1700699580358942552}
   - component: {fileID: 7329594696502880356}
+  - component: {fileID: 1899541662135486474}
   m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
@@ -243,3 +244,34 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.6011615, y: 0.9783991, z: 0.19534913}
   m_Center: {x: 0, y: 0.5015795, z: 0}
+--- !u!114 &1899541662135486474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7680433509856041620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1598915743
+      Data2: 1281131994
+      Data3: -1246134857
+      Data4: 1229516199
+    Path: event:/FoxSteps
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 9.8

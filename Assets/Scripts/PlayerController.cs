@@ -25,9 +25,15 @@ public class PlayerController : MonoBehaviour
     private int lives;
     private bool dead = false;
     private bool controllable = true;
+    private Vector3 lastInputVector;
+
+    private FMODUnity.StudioEventEmitter walking;
 
     public void Hurt()
     {
+
+        walking.Stop();
+
         if (!canBeHurt) return;
 
         canBeHurt = false;
@@ -43,6 +49,7 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(TickInvulnerabilityTime());
             StartCoroutine(Knockback());
         }
+
     }
 
     private void Start()
@@ -50,12 +57,15 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
         meshRenderer = graphics.GetComponent<MeshRenderer>();
+        walking = GetComponent<FMODUnity.StudioEventEmitter>();
 
         lives = maxLives;
     }
 
     private void Update()
     {
+        if (rb.velocity.magnitude == 0) walking.Stop();
+
         if (dead || !controllable) return;
 
         bool attack = GetAttackInput();
@@ -72,6 +82,15 @@ public class PlayerController : MonoBehaviour
         if (dead || !controllable) return;
 
         Vector3 vel = GetVelocity();
+        if (vel.magnitude != 0 && lastInputVector.magnitude == 0)
+        {
+            walking.Play();
+        }
+        else if (vel.magnitude == 0 && lastInputVector.magnitude != 0)
+        {
+            walking.Stop();
+        }
+        lastInputVector = vel;
         Move(vel);
         animator.SetBool("Moving", rb.velocity.magnitude > 0.0001f);
     }
