@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -537,7 +537,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0.23537093, y: -0, z: -0, w: 0.97190565}
-  m_LocalPosition: {x: -0.11182182, y: 1.5, z: -1.98}
+  m_LocalPosition: {x: -0.11182182, y: 1.88, z: -2.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -797,7 +797,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1907602678
 Transform:
   m_ObjectHideFlags: 0
@@ -827,6 +827,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 961128522}
   pumpkinPrefab: {fileID: -3955912458946480918, guid: 138460667e4a8464cb3772fed91384b1, type: 3}
+  minInterval: 1
+  maxInterval: 4
 --- !u!1001 &297685551372530017
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -935,10 +937,6 @@ PrefabInstance:
     - target: {fileID: 7680433509856041620, guid: 7d0779b754c3889468ed431a10d6141c, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 7680433509856041620, guid: 7d0779b754c3889468ed431a10d6141c, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

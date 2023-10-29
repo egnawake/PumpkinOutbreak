@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5558224435612791714}
   - component: {fileID: 8297591785344890765}
   - component: {fileID: 7633885840277017759}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hammer
   m_TagString: Untagged
   m_Icon: {fileID: 0}

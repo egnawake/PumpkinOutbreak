@@ -6,6 +6,8 @@ public class Hammer : MonoBehaviour
     [SerializeField] private float initialSpeed = 15.0f;
     [SerializeField] private float minSpeed = 10.0f;
     [SerializeField] private float acceleration = -0.2f;
+    [SerializeField] private float minRange = 2f;
+    [SerializeField] private float maxRange = 4f;
 
     private Transform targetTransform;
     private Transform returnTransform;
@@ -19,6 +21,12 @@ public class Hammer : MonoBehaviour
         this.targetTransform = targetTransform;
         this.returnTransform = returnTransform;
         this.doneCallback = doneCallback;
+
+        Vector3 toTarget = this.targetTransform.position - transform.position;
+        float mag = toTarget.magnitude;
+        mag = Mathf.Clamp(mag, minRange, maxRange);
+        toTarget = toTarget.normalized * mag;
+        this.targetTransform.position = transform.position + toTarget;
 
         speed = initialSpeed;
     }
