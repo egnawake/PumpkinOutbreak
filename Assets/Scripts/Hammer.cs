@@ -8,6 +8,7 @@ public class Hammer : MonoBehaviour
     [SerializeField] private float acceleration = -0.2f;
     [SerializeField] private float minRange = 2f;
     [SerializeField] private float maxRange = 4f;
+    [SerializeField] private float catchDistanceThreshold = 0.1f;
 
     private Transform targetTransform;
     private Transform returnTransform;
@@ -55,7 +56,7 @@ public class Hammer : MonoBehaviour
     private void UpdateTarget()
     {
         float distanceToTarget = Vector3.Distance(transform.position, targetTransform.position);
-        if (distanceToTarget < 0.05f)
+        if (distanceToTarget < catchDistanceThreshold)
         {
             if (!targetReached)
             {
